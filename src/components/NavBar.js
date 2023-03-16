@@ -12,6 +12,7 @@ const NavBar = () => {
           <Navbar.Brand>
             <img src={logo} alt="logo" height="45" />
           </Navbar.Brand>
+          The Itch List
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -22,7 +23,7 @@ const NavBar = () => {
               activeClassName={styles.Active}
               to="/"
             >
-              <i className="fas fa-home"></i>
+              <i className="fas fa-home fa-beat"></i>
               Home
             </NavLink>
             <NavLink
@@ -30,7 +31,7 @@ const NavBar = () => {
               activeClassName={styles.Active}
               to="/signin"
             >
-              <i className="fas fa-sign-in-alt"></i>
+              <i className="fas fa-sign-in-alt fa-beat"></i>
               Sign in
             </NavLink>
             <NavLink
@@ -38,7 +39,7 @@ const NavBar = () => {
               activeClassName={styles.Active}
               to="/signup"
             >
-              <i className="fas fa-user-plus"></i>
+              <i className="fas fa-user-plus fa-beat"></i>
               Sign up
             </NavLink>
           </Nav>

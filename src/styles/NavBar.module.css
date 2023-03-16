@@ -1,6 +1,6 @@
 .NavBar {
-    background-color: #ffffff;
-    border: 1px solid #dadadf;
+    background-color: #cacae9;
+    border: 1px solid #c7c7dd;
 }
 
 .NavLink {
@@ -8,5 +8,10 @@
 }
 
 .Active i {
-    color: #2142b2;
+    color: #5164a3;
+    --fa-animation-duration: 2s;
+}
+
+i {
+    --fa-animation-duration: 0s;   
 }
